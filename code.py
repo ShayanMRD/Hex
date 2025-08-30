@@ -4,14 +4,14 @@ def check_hex(string1):
         if i in ["a", "b", "c", "d", "e", "f", "#"] and [f"{0:10}"]:
             continue
         else:
-            print("no")
+            print("No")
             quit()
     if not string1[0] == "#" :
-        print("no")
+        print(No")
     elif not len(string1) == 7:
-        print("no")
+        print("No")
     else:
-        print("yes")
+        print("Yes")
 
 string_user = input("vard kon = ")
 check_hex(string_user)
