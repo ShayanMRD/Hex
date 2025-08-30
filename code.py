@@ -1,7 +1,7 @@
 def check_hex(string1):
     string1_lower = string1.lower()
     for i in string1_lower:
-        if i in ["a", "b", "c", "d", "e", "f", "#"] and [f"{0:10}"]:
+        if i in [chr(i) for i in range(ord("a"),ord("f")+1)] + ["#"] + list(range(0,10)):
             continue
         else:
             print("No")
