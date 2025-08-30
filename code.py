@@ -1,0 +1,17 @@
+def check_hex(string1):
+    string1_lower = string1.lower()
+    for i in string1_lower:
+        if i in ["a", "b", "c", "d", "e", "f", "#"] and [f"{0:10}"]:
+            continue
+        else:
+            print("no")
+            quit()
+    if not string1[0] == "#" :
+        print("no")
+    elif not len(string1) == 7:
+        print("no")
+    else:
+        print("yes")
+
+string_user = input("vard kon = ")
+check_hex(string_user)
