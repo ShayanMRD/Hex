@@ -7,7 +7,7 @@ def check_hex(string1):
             print("No")
             quit()
     if not string1[0] == "#" :
-        print(No")
+        print("No")
     elif not len(string1) == 7:
         print("No")
     else:
